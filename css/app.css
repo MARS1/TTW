@@ -13,9 +13,17 @@
 .gray {
   color: #464646; }
 
+.wht-txt {
+  color: white; }
+
 p.date small {
   text-transform: uppercase;
+  color: #063230; }
+
+p.author a {
   color: #fce011; }
+p.author a:hover {
+  text-decoration: underline; }
 
 ul.palette {
   display: inline-block; }

@@ -29,10 +29,23 @@ $lt-grey: #efefef;
 	color: $slate;
 }
 
+.wht-txt {
+	color: $white;
+}
+
 p.date {
 	small {
 	text-transform: uppercase;
-	color: $gold;
+	color: $drk-emerald;
+	}
+}
+
+p.author {
+	a {
+		color: $gold;
+	}
+	a:hover {
+		text-decoration: underline;
 	}
 }
 
